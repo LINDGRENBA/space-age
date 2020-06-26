@@ -18,6 +18,10 @@ export class User {
     this.yearsLeftOnJupiter = Math.round((yearsLeft * 365) / (11.8 * 365));
   }
 
+  yearsExceded(lifeExpectancy) {
+    
+  }
+
 }
 
 // mercury - divide age*365 by 88  =  136.875
