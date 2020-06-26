@@ -19,7 +19,7 @@ module.exports = {
     new CleanWebpackPlugin(),
     new Dotenv(),
     new HtmlWebpackPlugin({
-      title: 'Space Age',
+      title: 'space-age',
       template: './src/index.html',
       inject: 'body'
     })

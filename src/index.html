@@ -6,7 +6,29 @@
   <title>Space Age</title>
 </head>
 <body>
-  <h1>A Super Galactic Age Calculator</h1>
+  <div class="container">
+    <header class="well">
+      <h1>A Super Galactic Age Calculator</h1>
+    </header>
+    <form id="calculate-ages">
+      <div class="form-group">
+        <label for="name">Name:</label>
+        <input type="text" id="name" class="form-control">
+      </div>
+      <div class="form-group">
+        <label for="age">Age in Earth Years:</label>
+        <input type="text" id="age" class="form-control">
+        <button type="submit" class="btn">Calculate!</button>
+      </div>
+    </form>
+    <div id="output">
+      <div id="mercury-ouput"></div>
+      <div id="venus-ouput"></div>
+      <div id="mars-ouput"></div>
+      <div id="jupiter-ouput"></div>
+    </div>
+  </div>
+
   
 </body>
 </html>

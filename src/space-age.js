@@ -1,3 +1,5 @@
+//Business Logic
+
 export class User {
   constructor(name, age) {
     this.name = name;
