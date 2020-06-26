@@ -2,7 +2,7 @@
   "name": "space-age",
   "version": "1.0.0",
   "description": "Calculate your age on different planets",
-  "main": "index.js",
+  "main": "main.js",
   "scripts": {
     "build": "webpack --mode development",
     "start": "npm run build& webpack-dev-server --open --mode development",
@@ -30,6 +30,7 @@
     "webpack-dev-server": "^3.8.0"
   },
   "dependencies": {
+    "bootstrap": "4.5.0",
     "jquery": "^3.4.1",
     "popper.js": "^1.15.0"
   }

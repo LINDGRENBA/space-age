@@ -39,7 +39,7 @@ Now you can find out how old you would be if you lived on Mars, Jupiter or Mercu
 
 | Behavior | Input | Output |  Completed(Y/N?)  | 
 | -------- | ----- | ------ | -------- |
-|  Program will create a user object that holds user name age  |  n/a  |  user {name: 'Cheryl', age: '33'}  |  N  |
+|  Program will create a user object that holds user name and age  |  n/a  |  user {name: 'Cheryl', age: '33'}  |  N  |
 |  Program will take user's age and return user age in Mercury years  |  33  |  139.8  |  N  |
 |  Program will take user's age and return user age in Venus years  |  33  |  54.7  |  N  |
 |  Program will take user's age and return user age in Mars years  |  33  |  17.9  |  N  |
