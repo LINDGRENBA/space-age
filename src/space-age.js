@@ -13,7 +13,7 @@ export class User {
   }
 
   calculateMarsAge() {
-    
+    this.marsAge = Math.round((this.age * 365) / 687);
   }
 
 }

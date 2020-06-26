@@ -23,7 +23,7 @@ describe('User', () => {
   test('should calculate user age in Mars years', () => {
     const user1 = new User("Donald", 33);
     user1.calculateMarsAge();
-    expect(user1.MarsAge).toEqual(18);
+    expect(user1.marsAge).toEqual(18);
   });
 
 });
