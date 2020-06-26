@@ -45,8 +45,8 @@ describe('User', () => {
   test('should calculate how many years user has lived beyond life expectancy if user age is greater than life expectancy', () => {
     const user1 = new User("Donald", 90);
     const lifeExpectancy = 85;
-    user1.yearsExceded(lifeExpectancy);
-    expect(user1.yearsExceded).toEqual('5');
+    user1.yearsExceeded(lifeExpectancy);
+    expect(user1.yearsExceeded).toEqual('5');
   });
 
 });

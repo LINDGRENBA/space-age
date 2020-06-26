@@ -18,7 +18,7 @@ export class User {
     this.yearsLeftOnJupiter = Math.round((yearsLeft * 365) / (11.8 * 365));
   }
 
-  yearsExceded(lifeExpectancy) {
+  yearsExceeded(lifeExpectancy) {
     
   }
 
