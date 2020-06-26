@@ -44,7 +44,7 @@ Now you can find out how old you would be if you lived on Mars, Jupiter or Mercu
 |  Program will take user's Earth age and return user age in Venus years, rounded to nearest whole number  |  33  |  54  |  Y  |
 |  Program will take user's Earth age and return user age in Mars years, rounded to nearest whole number  |  33  |  18  |  Y  |
 |  Program will take user's Earth age and return user age in Jupiter years, rounded to nearest whole number  |  33  |  3  |  Y  |
-|  Program will utilize users average life expectency on Earth to calculate user's years left to live on each planet, rounded up to the nearest whole number.  | Life expectancy on Earth = 85, years left to live on earth = 52  | Years left on: Mercury = 216, Venus = 84, Mars = 28, Jupiter = 4  |  N  |
+|  Program will utilize users average life expectency on Earth to calculate user's years left to live on each planet, rounded up to the nearest whole number.  | Life expectancy on Earth = 85, years left to live on earth = 52  | Years left on: Mercury = 216, Venus = 84, Mars = 28, Jupiter = 4  |  Y  |
 |  Program will return the number of years user has lived past their life expectancy if they have surpassed the average life expectancy for their demographic  |  life expectancy = 85, user age = 90  |  5  |  N  |
 
 ## Known Bugs

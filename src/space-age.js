@@ -20,8 +20,11 @@ export class User {
     this.jupiterAge = Math.round((this.age * 365) / (11.8 * 365));
   }
 
-  remainingYears() {
-    
+  remainingYears(yearsLeft) {
+    this.yearsLeftOnMercury = Math.round((yearsLeft * 365) / 88);
+    this.yearsLeftOnVenus = Math.round((yearsLeft * 365) / 225);
+    this.yearsLeftOnMars = Math.round((yearsLeft * 365) / 687);
+    this.yearsLeftOnJupiter = Math.round((yearsLeft * 365) / (11.8 * 365));
   }
 
 }
