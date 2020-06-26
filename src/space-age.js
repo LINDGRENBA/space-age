@@ -12,6 +12,10 @@ export class User {
     this.venusAge = Math.round((this.age * 365) / 225);
   }
 
+  calculateMarsAge() {
+    
+  }
+
 }
 
 // venus - 53.533

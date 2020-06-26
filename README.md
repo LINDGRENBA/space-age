@@ -41,7 +41,7 @@ Now you can find out how old you would be if you lived on Mars, Jupiter or Mercu
 | -------- | ----- | ------ | -------- |
 |  Program will create a user object that holds user name and age  |  n/a  |  user {name: 'Cheryl', age: '33'}  |  Y  |
 |  Program will take user's Earth age and return user age in Mercury years, rounded to nearest whole number  |  33  |  137 |  Y  |
-|  Program will take user's Earth age and return user age in Venus years, rounded to nearest whole number  |  33  |  54  |  N  |
+|  Program will take user's Earth age and return user age in Venus years, rounded to nearest whole number  |  33  |  54  |  Y  |
 |  Program will take user's Earth age and return user age in Mars years, rounded to nearest whole number  |  33  |  18  |  N  |
 |  Program will take user's Earth age and return user age in Jupiter years, rounded to nearest whole number  |  33  |  3  |  N  |
 |  Program will calculate user's average life expectancy on each planet  |  life expectency on Earth = 85   |  life expectancy on Mercury = 351.6 years  |  N  |
