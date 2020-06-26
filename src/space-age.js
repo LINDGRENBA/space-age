@@ -4,19 +4,10 @@ export class User {
     this.age = age;
   }
 
-  ageOnMercury() {
+  ageOnOtherPlanets() {
     this.mercuryAge = Math.round((this.age * 365) / 88);
-  }
-
-  ageOnVenus() {
     this.venusAge = Math.round((this.age * 365) / 225);
-  }
-
-  ageOnMars() {
     this.marsAge = Math.round((this.age * 365) / 687);
-  }
-
-  ageOnJupiter() {
     this.jupiterAge = Math.round((this.age * 365) / (11.8 * 365));
   }
 
