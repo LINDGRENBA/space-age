@@ -11,13 +11,13 @@ describe('User', () => {
   test('should calculate users age in Mercury years', () => {
     const user1 = new User("Donald", 33);
     user1.calculateMercuryAge();
-    expect(user1.mercuryAge).toEqual(136.875);
+    expect(user1.mercuryAge).toEqual(137);
   });
 
   test('should calculate user age in Venus years', () => {
     const user1 = new User("Donald", 33);
     user1.calculateVenusAge();
-    expect(user1.venusAge).toEqual(53.533);
+    expect(user1.venusAge).toEqual(54);
   });
 
 });

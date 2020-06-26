@@ -5,11 +5,11 @@ export class User {
   }
 
   calculateMercuryAge() {
-    this.mercuryAge = (this.age * 365) / 88;
+    this.mercuryAge = Math.round((this.age * 365) / 88);
   }
 
   calculateVenusAge() {
-
+    this.venusAge = Math.round((this.age * 365) / 225);
   }
 
 }
