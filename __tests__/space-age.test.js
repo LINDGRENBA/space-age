@@ -36,7 +36,10 @@ describe('User', () => {
     const user1 = new User("Donald", 33);
     const yearsLeft = (85 - user1.age);
     user1.remainingYears(yearsLeft);
-    expect(user1.yearsLeftOnMercery).toEqual(216)
+    expect(user1.yearsLeftOnMercury).toEqual(216);
+    expect(user1.yearsLeftOnVenus).toEqual(84);
+    expect(user1.yearsLeftOnMars).toEqual(28);
+    expect(user1.yearsLeftOnJupiter).toEqual(4);
   });
 
 });
