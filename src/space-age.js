@@ -4,19 +4,19 @@ export class User {
     this.age = age;
   }
 
-  calculateMercuryAge() {
+  ageOnMercury() {
     this.mercuryAge = Math.round((this.age * 365) / 88);
   }
 
-  calculateVenusAge() {
+  ageOnVenus() {
     this.venusAge = Math.round((this.age * 365) / 225);
   }
 
-  calculateMarsAge() {
+  ageOnMars() {
     this.marsAge = Math.round((this.age * 365) / 687);
   }
 
-  calculateJupiterAge() {
+  ageOnJupiter() {
     this.jupiterAge = Math.round((this.age * 365) / (11.8 * 365));
   }
 

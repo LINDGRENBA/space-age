@@ -10,25 +10,25 @@ describe('User', () => {
 
   test('should calculate users age in Mercury years', () => {
     const user1 = new User("Donald", 33);
-    user1.calculateMercuryAge();
+    user1.ageOnMercury();
     expect(user1.mercuryAge).toEqual(137);
   });
 
   test('should calculate user age in Venus years', () => {
     const user1 = new User("Donald", 33);
-    user1.calculateVenusAge();
+    user1.ageOnVenus();
     expect(user1.venusAge).toEqual(54);
   });
 
   test('should calculate user age in Mars years', () => {
     const user1 = new User("Donald", 33);
-    user1.calculateMarsAge();
+    user1.ageOnMars();
     expect(user1.marsAge).toEqual(18);
   });
 
   test('should calculate user age in Jupiter years', () => {
     const user1 = new User("Donald", 33);
-    user1.calculateJupiterAge();
+    user1.ageOnJupiter();
     expect(user1.jupiterAge).toEqual(3);
   });
 
