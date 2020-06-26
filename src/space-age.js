@@ -20,8 +20,13 @@ export class User {
     this.jupiterAge = Math.round((this.age * 365) / (11.8 * 365));
   }
 
+  remainingYears() {
+    
+  }
+
 }
 
-// venus - 53.533
-// mars - 17.532
-// jupiter - 2.796
+// mercury - divide age*365 by 88  =  136.875
+// venus - divide age*365 by 225  =  53.533
+// mars - divide age*365 by 687  =  17.532
+// jupiter - divide age*365 by (11.8*365)  =  2.796

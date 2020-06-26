@@ -32,4 +32,11 @@ describe('User', () => {
     expect(user1.jupiterAge).toEqual(3);
   });
 
+  test('should calculate how many years user has left to live on Mercury, Venus, Mars and Jupiter', () => {
+    const user1 = new User("Donald", 33);
+    const yearsLeft = (85 - user1.age);
+    user1.remainingYears(yearsLeft);
+    expect(user1.yearsLeftOnMercery).toEqual(216)
+  });
+
 });
