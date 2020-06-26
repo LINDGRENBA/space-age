@@ -1,0 +1,14 @@
+body {
+  background-color: #414a4c;
+  padding: 50px;
+  color: #FFF;
+}
+
+.form-group {
+  max-width: 200px;
+}
+
+.btn {
+margin-top: 30px;
+background-color: white;
+}

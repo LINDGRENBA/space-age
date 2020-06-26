@@ -1,8 +1,0 @@
-
-
-Project utilizes ES6 features including classes and template literals.
-
-Project is in a polished, portfolio-quality state.
-
-
-https://www.blueprintincome.com/tools/life-expectancy-calculator-how-long-will-i-live/

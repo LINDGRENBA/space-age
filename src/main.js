@@ -13,5 +13,10 @@ $(document).ready(function() {
     let userAge = $("#age").val();
     const user = new User(userName, userAge);
     user.ageOnOtherPlanets();
+    $("#name-output").text(userName);
+    $("#output").append(`<li>Your age on Mercury is ${user.mercuryAge}!</li>`);
+    $("#output").append(`<li>Your age on Venus is ${user.venusAge}!</li>`);
+    $("#output").append(`<li>Your age on Mars is ${user.marsAge}!</li>`);
+    $("#output").append(`<li>Your age on Jupiter is ${user.jupiterAge}!</li>`);
   });
 });
