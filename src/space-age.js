@@ -19,7 +19,7 @@ export class User {
   }
 
   yearsExceeded(lifeExpectancy) {
-    
+    this.yearsExceeded = this.age - lifeExpectancy;
   }
 
 }

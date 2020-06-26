@@ -46,7 +46,7 @@ describe('User', () => {
     const user1 = new User("Donald", 90);
     const lifeExpectancy = 85;
     user1.yearsExceeded(lifeExpectancy);
-    expect(user1.yearsExceeded).toEqual('5');
+    expect(user1.yearsExceeded).toEqual(5);
   });
 
 });
