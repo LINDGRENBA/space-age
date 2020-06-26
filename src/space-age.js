@@ -5,7 +5,7 @@ export class User {
   }
 
   calculateMercuryAge() {
-    
+    this.mercuryAge = (this.age * 365) / 88;
   }
 
 }
