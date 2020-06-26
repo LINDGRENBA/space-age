@@ -1,12 +1,12 @@
 {
-  "name": "super-galactic-age-calculator",
+  "name": "space-age",
   "version": "1.0.0",
-  "description": "",
+  "description": "Calculate your age on different planets",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
+  "author": "Brittany Lindgren",
   "license": "ISC"
 }
