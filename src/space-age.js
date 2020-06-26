@@ -17,7 +17,7 @@ export class User {
   }
 
   calculateJupiterAge() {
-    
+    this.jupiterAge = Math.round((this.age * 365) / (11.8 * 365));
   }
 
 }
